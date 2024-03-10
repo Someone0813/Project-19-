@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    background-color: rgba(249, 171, 164, 1.00);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    display: flex;
+    box-shadow: 0px 0px 11px 1px rgba(34, 60, 80, 0.46);
+    border-radius: 15px;
+}
+
+#Player1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(251, 230, 228, 1.00);
+    padding: 100px 150px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#Pl1{
+    font-size: 48px;
+    color: rgba(60, 58, 58, 1.00);
+}
+#Score_0{
+    color: rgba(254, 107, 70, 1.00);
+    font-size: 68px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+#Player1 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(254, 107, 70, 1.00);
+    gap: 15px;
+    padding: 20px 60px;
+    border-radius: 15px;
+    margin-top: 150px;
+}
+#Cur1{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(254, 239, 237, 1.00);
+}
+#Current0{
+    font-size: 32px;
+    color: rgba(254, 239, 237, 1.00);
+}
+#Player2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(250, 208, 205, 1.00);
+    padding: 100px 150px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#Pl2{
+    font-size: 48px;
+    color: rgba(60, 58, 58, 1.00);
+}
+#Score_1{
+    color: rgba(254, 107, 70, 1.00);
+    font-size: 68px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+#Player2 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(254, 107, 70, 1.00);
+    gap: 15px;
+    padding: 20px 60px;
+    border-radius: 15px;
+    margin-top: 150px;
+}
+#Cur2{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(254, 239, 237, 1.00);
+}
+#Current1{
+    font-size: 32px;
+    color: rgba(254, 239, 237, 1.00);
+}
+#NewGame-btn{
+    position: absolute;
+    margin-left: 428px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgba(174, 168, 167, 1.00);
+    padding: 15px 40px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 11px 1px rgba(34, 60, 80, 0.46);
+    cursor: pointer;
+    transition: 0.2s;
+}
+#NewGame-btn:active{
+   
+   margin-top: 45px;
+}
+#RollDice-btn{
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 420px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgba(174, 168, 167, 1.00);
+    padding: 15px 40px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 11px 1px rgba(34, 60, 80, 0.46);
+    cursor: pointer;
+    transition: 0.2s;
+}
+#RollDice-btn:active{
+    margin-top: 425px;
+}
+#Hold-btn{
+    position: absolute;
+    margin-left: 452px;
+    margin-top: 490px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgba(174, 168, 167, 1.00);
+    padding: 15px 40px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 11px 1px rgba(34, 60, 80, 0.46);
+    cursor: pointer;
+    transition: 0.2s;
+}
+#Hold-btn:active{
+    margin-top: 495px;
+}
+#Dice{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 457.5px;
+    display: none;
+    max-width: 120px;
+    max-height: 120px;
+}
+
+#UpdatePage{
+    position: absolute;
+    max-width: 400px;
+    text-align: center;
+    background-color: rgba(249, 171, 164, 1.00);
+    font-weight: 700;
+    box-shadow: 0px 0px 11px 1px rgba(34, 60, 80, 0.46);
+    border-radius: 25px;
+    padding: 30px 50px;
+    font-size: 30px;
+    margin-top: -100px;
+    display: none;
+}
